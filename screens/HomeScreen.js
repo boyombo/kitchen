@@ -209,6 +209,7 @@ export default class HomeScreen extends Component {
   };
 
   _recommend = () => {
+    // console.log("recommend");
     this.props.navigation.navigate("Recommend");
   };
 
